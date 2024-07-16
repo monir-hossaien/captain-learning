@@ -3,7 +3,9 @@
     margin: 0;
     box-sizing: border-box;
 }
-
+html{
+    scroll-behavior: smooth;
+}
 
 body{
     background-color: #0D1224;
@@ -22,6 +24,7 @@ body{
 }
 .nav_menu .wrapper span{
     color:rgba(128, 128, 128, 0.486);
+    font-size: 1rem;
     
 }
 
@@ -86,6 +89,7 @@ body{
     background-color: #11152C;
     border: 2px solid #1D1C3F;
     transition: all 0.3s;
+    height: 380px;
     &:hover{
         box-shadow: 0 1px 5px 0 rgba(106,108,228,1);
         transform: translate(1px);
@@ -95,6 +99,10 @@ body{
 
     }
 }
+.testimonial .wrapper .card-item{
+    height: 460px;
+}
+
 /*challenge  section ends here*/
 
 /*contact section starts from here*/
@@ -144,7 +152,6 @@ body{
 
 /*footer section starts from here*/
 .footer{
-    width: 100%;
     margin-top:30rem;
     & .wrapper{
         border-top: 2px solid #1D1C3F;
