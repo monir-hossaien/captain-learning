@@ -1,0 +1,454 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <!--    meta tag starts from here-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Captain Binary তে প্রোগ্রামিং শেখার Day 01 থেকেই শুরু করতে পারবে প্রবলেম সলভিং। Step by step লার্ন করা থেকে শুরু করে প্রোগ্রামিং স্কিল ডেভেলপ হবে রিয়েল লাইফ, থিউরেটিক্যাল, প্রোজেক্ট ভিত্তিক সমস্যা সমাধানে। কম্পিউটার প্রোগ্রামিং এমন সব সমস্যা সমাধান করার জন্য উদ্ভাবিত হয়েছে, যে সমস্যা গুলো এটি বানানোর আগে কখনো বিরাজ করত না। ">
+    <meta name="keyword" content="জাভাস্ক্রিপ্ট শেখা, জাভাস্ক্রিপ্ট সমস্যা সমাধান, কোডিং চ্যালেঞ্জ, জাভাস্ক্রিপ্ট টিউটোরিয়াল, প্রোগ্রামিং দক্ষতা, কোডিং অনুশীলন, জাভাস্ক্রিপ্ট অনুশীলন, ওয়েব ডেভেলপমেন্ট, ইন্টারেক্টিভ লার্নিং, Captain Binary">
+    <meta property="og:image" content="https://CaptainBinary.com/images/captainbinary.png">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Tiro+Bangla:ital@0;1&display=swap" rel="stylesheet">
+    <!-- font awesome cdn -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Captain Binary - প্রোগ্রামিং শেখার সেরা উপায়</title>
+</head>
+
+<body>
+    <!-- navbar starts here -->
+    <section class="nav_menu">
+        <div class="container">
+            <div class="row">
+                <div class="wrapper">
+                    <nav class="navbar navbar-expand-lg sticky-top ">
+                        <div class="navbar-brand">
+                            <a href="index.html">
+                                <img src="./images/logo.svg" alt="logo_img" class="img-fluid">
+                            </a>
+                        </div>
+        
+                        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                            <span><i class="fa-solid fa-bars fa-2x"></i></span>
+                        </button>
+                        
+                        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                            <ul class="navbar-nav ms-auto">
+                                <li class="nav-item">
+                                    <a class="nav-link  fw-bolder" href="index.html">হোম</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-bolder" href="login.html">সাইন ইন</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link text-white fw-bolder" href="sign-up.html">সাইন আপ</a>
+                                </li>
+                            </ul>
+                        </div>
+                        
+                    </nav>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- navbar ends here -->
+
+    <!-- hero section start -->
+    <section class="hero mt-3 mt-lg-0">
+        <div class="container">
+            <div class="row align-items-center gap-4 gap-md-0">
+                <div class="col-lg-6 ">
+                    <div class="wrapper">
+                        <h4 class="text-white lh-base">
+                            <i class="fa-solid fa-quote-left text-secondary "></i>
+                            কম্পিউটার প্রোগ্রামিং এমন সব
+                            <span class="hero-span-1">
+                                সমস্যা সমাধান করার জন্য
+                            </span>
+                            উদ্ভাবিত হয়েছে,
+                            <span class="hero-span-2">
+                                যে সমস্যা গুলো এটি বানানোর আগে
+                            </span>কখনো বিরাজ করত না
+                            <i class="fa-solid fa-quote-right text-secondary "></i>
+                        </h4>
+                        <div class="col-lg-12">
+                            <a class="btn btn-outline-dark text-white px-3 mt-3 border-primary-subtle fs-6"
+                                href="www.facebook.com"><i class="fa-brands fa-facebook"></i> <span class="hero-span-3">সাপোর্ট গ্রুপে জয়েন করো এখুনি</span>
+                            </a>
+                        </div>
+                    </div>
+                    
+                </div>
+                <div class="col-lg-6 p-5">
+                    <img src="./images/hero-img.svg" alt="hero-img" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- hero section end -->
+
+    <!-- brand section starts here-->
+    <section class="brand my-5">
+        <div class="container">
+            <div class="row gap-3 gap-md-0">
+                <div class="col-lg-3">
+                    <div class="wrapper px-2 rounded-2">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-6">
+                                <h4 class="mt-2  fw-bolder">72</h4>
+                                <p class="text-white small text-nowrap">টোটাল চ্যালেঞ্জ</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex justify-content-end">
+                                    <img src="./images/icon.svg" alt="icon img" class="img-fluid w-50  rounded-1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="wrapper px-2 rounded-2">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-6">
+                                <h4 class="mt-2  fw-bolder">17</h4>
+                                <p class="text-white small text-nowrap">টোটাল ক্যাটেগরি</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex justify-content-end">
+                                    <img src="./images/icon.svg" alt="icon img" class="img-fluid w-50  rounded-1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="wrapper px-2 rounded-2">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-6">
+                                <h4 class="mt-2  fw-bolder">762</h4>
+                                <p class="text-white small text-nowrap">একটিভ ক্যাপ্টেন</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex justify-content-end">
+                                    <img src="./images/icon.svg" alt="icon img" class="img-fluid w-50  rounded-1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3">
+                    <div class="wrapper px-2 rounded-2">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-6">
+                                <h4 class="mt-2 fw-bolder">1</h4>
+                                <p class="text-white small text-nowrap">প্রোগ্রামিং ল্যাঙ্গুয়েজ</p>
+                            </div>
+                            <div class="col-6">
+                                <div class="d-flex justify-content-end">
+                                    <img src="./images/icon.svg" alt="icon img" class="img-fluid w-50  rounded-1">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- brand section ends here -->
+
+    <!-- challenge  section starts from here-->
+    <section class="challenge text-white my-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-4 ">
+                    <div class="wrapper">
+                        <h4 class="mt-5 mb-3">যেভাবে দক্ষ হয়ে উঠবে</h4>
+                        <p class=" small text-secondary">ক্যাটেগরি থেকে সমস্যা সিলেক্ট করুন-সলভ করো, এর পর টেষ্ট করে ফাইনাল সাবমিশন</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <div class="card mt-3 card-item">
+                            <div class="card-img">
+                                <img class="img-fluid card-img-top" src="./images/find.webp" alt="card-img" >
+                            </div>
+                            <div class="card-body p-4">
+                                <h4 class="card-title title">প্রোগ্রামিং চ্যালেঞ্জ সিলেক্ট</h4>
+                                <p class="card-text text-white small mt-3 mb-4">
+                                    বিভিন্ন ক্যাটেগরি, লেভেল ল্যাংগুয়েজ এবং স্টেপ অনুযায়ী প্রোগ্রামিং চ্যালেঞ্জ সিলেক্ট করো
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <div class="card mt-3 card-item">
+                            <div class="card-img">
+                                <img class="img-fluid card-img-top" src="./images/read.webp" alt="card-img" >
+                            </div>
+                            <div class="card-body p-4">
+                                <h4 class="card-title title">চ্যালেঞ্জ ডিটেলস পড়ো</h4>
+                                <p class="card-text text-white small mt-3 mb-4">
+                                    বিভিন্ন ক্যাটেগরি, লেভেল ল্যাংগুয়েজ এবং স্টেপ অনুযায়ী প্রোগ্রামিং চ্যালেঞ্জ সিলেক্ট করো
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <div class="card mt-3 card-item">
+                            <div class="card-img">
+                                <img class="img-fluid card-img-top" src="./images/solve.webp" alt="card-img" >
+                            </div>
+                            <div class="card-body p-4">
+                                <h4 class="card-title title">চ্যালেঞ্জ সলভ করো</h4>
+                                <p class="card-text text-white small mt-3 mb-4">
+                                    বিভিন্ন ক্যাটেগরি, লেভেল ল্যাংগুয়েজ এবং স্টেপ অনুযায়ী প্রোগ্রামিং চ্যালেঞ্জ সিলেক্ট করো
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- challenge  section ends here-->
+
+    <!--    skill section starts from here-->
+
+    <section class="challenge text-white my-5">
+        <div class="container">
+
+            <div class="row justify-content-center text-center">
+                <div class="col-md-5 ">
+                    <div class="wrapper">
+                        <h4 class="mt-5 mb-3">ক্যাপ্টেন কোড এডিটর</h4>
+                        <p class=" small text-secondary">এই প্লাটফর্মে মাল্টি ল্যাংগুয়েজ সাপোর্টেড কোড এডিটর যুক্ত আছে, যেটি তোমার প্রোগ্রামিং প্রাকটিস, আরও বেশি সহজ করে তুলবে</p>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row align-items-center mt-3 gap-4 gap-md-0">
+                <div class="col-md-6">
+                    <div class="wrapper">
+                        <img class="img-fluid" src="./images/console.png" alt="console-img">
+                    </div>
+                </div>
+
+                <div class="col-md-6">
+                    <div class="wrapper">
+                        <div class="text small px-2">
+                            <p>ক্যাপ্টেন কোড প্লে-গ্রাউন্ড যথেষ্ট হালকা এবং দ্রুত , যা সকল আধুনিক ব্রাউজারে কার্যকরী। এটি বিভিন্ন প্রোগ্রামের ভাষা সাপোর্ট করে, সুতরাং কোডের ভুল নির্দেশ করতে সাহায্য করে, এবং অটোমেটিক কোড কমপ্লিশন এবং সাজেশন সরবরাহ করে।</p>
+
+                            <p>
+                                ক্যাপ্টেন কোড প্লে-গ্রাউন্ড এ আপনি বিভিন্ন প্রোগ্রামিং ভাষা ব্যবহার করতে পারেন, যেমন Python, Java, C++, JavaScript এবং PHP। এটি প্রোগ্রামিং ভাষাগুলির জন্য নির্দিষ্ট সিনট্যাক্স হাইলাইটিং এবং কোড সম্পূরণ সম্পর্কিত সুবিধা প্রদান করে। এছাড়াও এটি অন্যান্য প্রোগ্রামিং বৈশিষ্ট্যগুলির সাথে সম্পূর্ণ উপযোগী যা কোড লেখার জন্য সুবিধা প্রদান করে।
+                            </p>
+
+                            <p>
+                                কোড প্লে-গ্রাউন্ডটি প্লাটফর্মের প্রোগ্রামিং চ্যালেঞ্জগুলির সাথে কোড-টেস্টিং স্টেপের সাথে টেষ্ট-ইঞ্জিনের সাথে যুক্ত । এটি মানে হল, যখন আপনি কোড রান করবেন, তখন সেটি স্বয়ংক্রিয়ভাবে কোড-টেস্টিং স্টেপ সমুহ অনুসরণ করবে।
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    skill section ends here-->
+
+    <!--    testimonial section starts from here-->
+    <section class="challenge text-white my-5">
+        <div class="container">
+            <div class="row justify-content-center text-center">
+                <div class="col-md-6 ">
+                    <div class="wrapper">
+                        <h4 class="mt-5 mb-3">এক্সপার্টরা যা বলছেন</h4>
+                        <p class=" small text-secondary">ক্যাপ্টেন বাইনারি বাংলা ভাষায় প্রোগ্রামিং শেখার একটি স্ট্যান্ডার্ড প্লাটফর্ম যা স্কিল ডেভেলপমেন্টের পাশাপাশি তোমাকে প্রস্তুত করে টেকনিক্যাল ইন্টারভিউ এর জন্য</p>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <div class="card mt-3 card-item">
+                            <div class="card-img">
+                                <img class="img-fluid card-img-top" src="./images/testimonial_1.png" alt="card-img" >
+                            </div>
+                            <div class="card-body p-3">
+                                <h4 class="card-title title">Rabbil Hasan</h4>
+                                <p class="card-text text-white designation">Founder,Learn With Rabbil</p>
+                                <p class="card-text text-secondary small mt-3 mb-3">
+                                    প্রাকটিস, লার্নিং এবং আন্ডারস্ট্যান্ডিং । প্রোগ্রামিং স্কিল বাড়াতে প্রব্লেম সল্ভ করার বিকল্প নেই। স্কিল বাড়বে ধারাবাহিক , রিয়েল লাইভ, থিউরেটিক্যাল এবং প্রজেক্ট ভিত্তিক সমস্যা সমাধানে। একেবারে 0.0 থেকে ধারাবাহিক ভাবে সেই কাজটাই করে যাচ্ছে ক্যাপ্টেন বাইনারি । এই প্ল্যাটফর্মের সমস্যাগুলি সমাধান করে আপনি প্রব্লেম সলভিং-এর ভীতি কাটিয়ে উঠতে পারবেন ইনশাল্লাহ।
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <div class="card mt-3 card-item">
+                            <div class="card-img">
+                                <img class="img-fluid card-img-top" src="./images/testimonial_2.png" alt="card-img" >
+                            </div>
+                            <div class="card-body p-3">
+                                <h4 class="card-title title">Sumit Saha</h4>
+                                <p class="card-text text-white designation">Founder,Learn With Sumit</p>
+                                <p class="card-text text-secondary small">
+                                    একজন প্রোগ্রামারের মূল কাজই হলো সমস্যা সমাধান করা। আর একটি বড় সমস্যা সমাধানের গঠনমূলক উপায় হলো সমস্যাটিকে ছোট ছোট সমস্যায় ভেঙ্গে ফেলা। কেমন হতো যদি এরকম ছোট ছোট বিভিন্ন সমস্যার একটি তালিকা আপনার সামনে থাকতো এবং আপনি আপনার মাতৃভাষা বাংলায় সেগুলোকে সমাধানের চর্চা করতে পারতেন। ক্যাপ্টেন বাইনারি আপনাকে সেই চর্চাটি করার জন্যই উপযুক্ত করে তুলবে।
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="wrapper">
+                        <div class="card mt-3 card-item">
+                            <div class="card-img">
+                                <img class="img-fluid card-img-top" src="./images/testimonial_3.png" alt="card-img" >
+                            </div>
+                            <div class="card-body p-3">
+                                <h4 class="card-title title">Rabbil Hasan</h4>
+                                <p class="card-text text-white designation">Founder,Learn With Rabbil</p>
+                                <p class="card-text text-secondary small mt-3 mb-3">
+                                    প্রাকটিস, লার্নিং এবং আন্ডারস্ট্যান্ডিং । প্রোগ্রামিং স্কিল বাড়াতে প্রব্লেম সল্ভ করার বিকল্প নেই। স্কিল বাড়বে ধারাবাহিক , রিয়েল লাইভ, থিউরেটিক্যাল এবং প্রজেক্ট ভিত্তিক সমস্যা সমাধানে। একেবারে 0.0 থেকে ধারাবাহিক ভাবে সেই কাজটাই করে যাচ্ছে ক্যাপ্টেন বাইনারি । এই প্ল্যাটফর্মের সমস্যাগুলি সমাধান করে আপনি প্রব্লেম সলভিং-এর ভীতি কাটিয়ে উঠতে পারবেন ইনশাল্লাহ।
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-12">
+                    <div class="wrapper d-flex justify-content-center mt-5 gap-3">
+                        <a class="btn btn-outline-dark text-white testimonial-btn px-5 " href="#">আগে</a>
+                        <a class="btn btn-outline-dark text-white  testimonial-btn px-5 " href="#">পরে</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    testimonial section starts from here-->
+
+    <!--    contact section starts from here-->
+    <section class="contact challenge">
+        <div class="container">
+            <div class="row ">
+                <div class="wrapper d-flex justify-content-center text-center">
+                    <div class="col-md-6 ">
+                        <div class="wrapper">
+                            <h4 class="mt-5 mb-3">তোমার মেজেস পাঠাও</h4>
+                            <p class=" small text-secondary">ক্যাপ্টেন বাইনারি তোমাদের প্লাটফর্ম, তোমাদের মেসেজের সর্বচ্চ গুরুত্ব দিয়ে
+                                সিস্টেমটি ধারাবাহিকভাবে এগিয়ে যাবে</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-6 my-4">
+                    <form action="" class="text-white form-control p-5 rounded-2">
+                        <h5 class="mb-4 title ">তোমার মতামত/সমস্যা/সাপোর্ট</h5>
+                        <div class="wrapper">
+                            <div class="mb-3 ">
+                                <input class="form-control small" type="text" name="name" id="text" placeholder="তোমার নাম" aria-label="first-name">
+                            </div>
+
+                            <div class="mb-3">
+                                <input class="form-control " type="email" name="email" id="email" placeholder="ইমেইল" aria-label="email">
+                            </div>
+
+                            <div class="mb-3">
+                                <input class="form-control" type="tel" name="mobile" id="mobile" placeholder="মোবাইল" aria-label="tel">
+                            </div>
+
+                            <div class="mb-3">
+                                <textarea class="form-control" type="text" id="msg" placeholder="তোমার মেসেজ" aria-label="message"></textarea>
+                            </div>
+                            <div>
+                                <button class="btn btn-primary bg-gradient w-100" type="submit">সাবমিট</button>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+                <div class="col-md-6">
+                    <img src="./images/support.svg" alt="support-img">
+
+                    <div class="row">
+                        <div class="col-6">
+                            <a href="#" class="text-decoration-none pointer-event">
+                                <div class="wrapper d-flex align-items-center rounded-3 card-item">
+                                    <div class="col-6 text-center">
+                                        <h4 class="mt-2  fw-bolder">17 টি</h4>
+                                        <p class="text-white small text-nowrap ms-3">নতুন পাঠানো মেসেজ</p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="d-flex justify-content-end me-2">
+                                            <img src="./images/icon.svg" alt="icon img" class="img-fluid w-50  rounded-1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+
+                        <div class="col-6">
+                            <a href="#" class="text-decoration-none pointer-event">
+                                <div class="wrapper d-flex align-items-center rounded-3 card-item">
+                                    <div class="col-6 text-center">
+                                        <h4 class="mt-2  fw-bolder">0 টি</h4>
+                                        <p class="text-white small text-nowrap">এডমিন দেখেছেন </p>
+                                    </div>
+                                    <div class="col-6">
+                                        <div class="d-flex justify-content-end me-2">
+                                            <img src="./images/icon.svg" alt="icon img" class="img-fluid w-50  rounded-1">
+                                        </div>
+                                    </div>
+                                </div>
+                            </a>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--    contact section ends here-->
+
+    <!--    footer section starts from here-->
+    <section class="footer">
+        <div class="wrapper text-center text-white py-3 shadow-lg">
+            <div class="row justify-content-center">
+                <div class="col-12 col-md-6">
+                    <div class="footer-icon">
+                        <i class="fa-brands fa-facebook"></i>
+                        <i class="fa-brands fa-linkedin-in"></i>
+                        <i class="fa-brands fa-youtube"></i>
+                    </div>
+                    <div class="footer-des">
+                        <p class="small mt-2 mb-0">সর্বস্বত্ব ক্যাপ্টেন বাইনারি দ্বারা সংরক্ষিত</p>
+                        <p class="small">support@captainbinary.com</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!--    footer section ends here-->
+    <script src="./js/bootstrap.bundle.js"></script>
+</body>
+
+</html>

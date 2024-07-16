@@ -1,0 +1,189 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+body{
+    background-color: #0D1224;
+}
+
+/*navbar starts here*/
+.nav_menu .wrapper{
+    background-color: #0C1225;
+}
+.nav_menu .wrapper .nav-link:nth-child(1){
+    color: #5D71E2;
+}
+.nav_menu .wrapper img{
+    width: 153px;
+    height: 53px;
+}
+.nav_menu .wrapper span{
+    color:rgba(128, 128, 128, 0.486);
+    
+}
+
+/*navbar ends here*/
+
+/* hero section stats from here */
+.hero.wrapper{
+    color: #FF69B4;
+}
+.hero.wrapper div a{
+    color: #FF69B4;
+}
+.hero-span-1{
+    color: rgba(28, 226, 28, 0.855);
+}
+
+.hero-span-2{
+    color:#FF69B4;
+}
+.hero-span-3{
+    font-size: 0.8rem;
+    margin-left: 0.5rem;
+}
+/* hero section ends here */
+
+/* brand section start here */
+.brand h4{
+    color: blueviolet;
+}
+.brand img{
+    background-color: rgba(2, 2, 39, 0.081);
+}
+.brand .wrapper{
+    border: 2px solid #1D1C3F;
+    background-color: #11152C;
+    transition: all 0.3s;
+}
+.brand .wrapper:hover{
+    box-shadow: 0 1px 5px 0 rgb(132, 134, 243);
+    transform: translate(1px);
+}
+/* brand section ends here */
+
+/*challenge  section starts from here*/
+.challenge .wrapper h4{
+    color:#6C6BE4;
+}
+.challenge .title{
+    color: #6C6BE4;
+}
+.challenge .testimonial-btn{
+    font-size: 0.8rem;
+}
+
+.challenge .wrapper img{
+    border: 2px solid #1D1C3F;
+}
+.challenge .designation{
+    font-size: 0.8rem;
+}
+.challenge .wrapper .card-item{
+    background-color: #11152C;
+    border: 2px solid #1D1C3F;
+    transition: all 0.3s;
+    &:hover{
+        box-shadow: 0 1px 5px 0 rgba(106,108,228,1);
+        transform: translate(1px);
+    }
+    & .title{
+        color: #6C6BE4;
+
+    }
+}
+/*challenge  section ends here*/
+
+/*contact section starts from here*/
+.contact form{
+    background-color: #11152C;
+    border: 2px solid #1D1C3F;
+    transition: all 0.3s;
+    &:hover{
+        box-shadow: 0 1px 5px 0 rgba(106,108,228,1);
+        transform: translate(1px);
+    }
+}
+.form-control{
+    font-size: 0.8rem;
+    border: 2px solid #2f2e6a;
+}
+.contact form textarea{
+    resize: none;
+}
+
+.form-control:focus{
+    box-shadow: none;
+}
+
+.contact form button{
+    font-size: 0.8rem;
+    background-color: #6A6CE4;
+    padding: 0.6rem 0;
+    transition: all 0.3s;
+}
+.contact form button:hover{
+    background-color: #805FE4!important;
+}
+
+.contact .card-item{
+    background-color: #11152C;
+    border: 2px solid #1D1C3F;
+    margin-top: 1.4rem;
+    transition: all 0.3s;
+    &:hover{
+        box-shadow: 0 1px 5px 0 rgba(106,108,228,1);
+        transform: translate(1px);
+    }
+}
+/*contact section ends here*/
+
+
+/*footer section starts from here*/
+.footer{
+    width: 100%;
+    margin-top:30rem;
+    & .wrapper{
+        border-top: 2px solid #1D1C3F;
+        & .footer-icon{
+            font-size: 1.5rem;
+        }
+    }
+    & .footer-des p:nth-child(1){
+        color: #596DD9;
+        font-size: 0.7rem;
+    }
+}
+/*footer section ends here*/
+
+/*login section starts from here*/
+.login .wrapper{
+    & .login-title{
+        color: #6552BF;
+    }
+    & .login-subtitle{
+        font-size: 0.9rem;
+    }
+    & label{
+        font-size: 0.8rem;
+        color: #50459b;
+    }
+    & .login-des{
+        font-size: 0.8rem;
+    }
+    & .login-span{
+        color: #7161e1;
+    }
+    & a{
+        color: #7161e1;
+        text-decoration: none;
+
+    }
+}
+
+
+/*login section ends here*/
+
