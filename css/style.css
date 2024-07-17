@@ -22,9 +22,15 @@ body{
     width: 153px;
     height: 53px;
 }
+.nav_menu .nav-link{
+    font-size: 14px !important;
+}
+.nav_menu .wrapper ul{
+    margin-right: 4rem;
+}
 .nav_menu .wrapper span{
     color:rgba(128, 128, 128, 0.486);
-    font-size: 1rem;
+    font-size: 0.8rem;
     
 }
 
